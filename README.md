@@ -21,7 +21,11 @@ I'm a **Computer Engineering student** passionate about **Computer Vision, AI, r
 
 ### 🧠 AI, CSP & Mathematical Optimization
 - **Smart Canteen Scheduling** – Modeled and solved a meal scheduling problem using mathematical optimization and meta-heuristics.  
-  **Technologies:** Python, OR-Tools / Gurobi  
+  **Technologies:** Python, OR-Tools / Gurobi
+
+### 📱 Mobile App
+- **WhatsaPD** – A city guide app for Padua, designed with accessibility in mind for all users, both in its content and interface.  
+  **Technologies:** Kotlin, Android Studio, Accessibility APIs  
 
 ---
 
