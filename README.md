@@ -29,7 +29,7 @@ I'm a **Computer Engineering student** passionate about **Computer Vision, AI, r
 
 ---
 
-## 🌱 Currently Learning
-- Industrial and Intelligent Robotics 
-- Reinforcement Learning  
+## 🌱 Currently working on
+- Explainable AI
+- Computer Vision for Robotics (Active Mapping)
 
