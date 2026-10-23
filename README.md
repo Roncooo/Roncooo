@@ -53,7 +53,7 @@ Accessible city guide for Padua, built to Android's inclusive-design guidelines.
 ---
 
 ## 🛠️ Tech
-**Languages:** C++, Python, Java, MATLAB, Kotlin, C, Go
+**Languages:** C++, Python, Java, MATLAB, Kotlin, C, Go  
 **CV & ML:** PyTorch, TensorFlow, OpenCV, Vision Transformers  
 **Robotics:** ROS2, robot simulation  
 **Tools:** Git, CMake, Linux, Conda
