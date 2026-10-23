@@ -47,8 +47,8 @@ Accessible city guide for Padua, built to Android's inclusive-design guidelines.
 ---
 
 ## 🌱 Currently Working On
-- **Active Mapping:**
-- **Explainable AI:**
+- **Active Mapping**
+- **Explainable AI**
 
 ---
 
