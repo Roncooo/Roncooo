@@ -6,6 +6,18 @@ Computer Engineering student at the University of Padova, working on **Computer 
 
 ---
 
+## 🎓 Master's Thesis (in progress)
+
+**Active View Selection for Articulated Objects**  
+Choosing where a robot's camera should look next. With only about 20 views, the goal is to reconstruct an object with moving parts (a laptop lid, a microwave door) well enough to recover its joints, and to do it fast enough to run on a real robot.  
+- Built the full pipeline. Articulated objects from PartNet-Mobility are rendered as RGB-D with BlenderProc, reconstructed with 3D Gaussian Splatting and Deformable 3DGS, and the next view is chosen from the model's Fisher information (FisherRF).
+- Designed a causal active loop. The object moves on its own while the camera decides where to look next, and one deformable model keeps training from a depth-initialized start instead of being retrained from scratch after every pick.
+- Compared information-based selection against fair baselines: uniform random and farthest pose. FisherRF's built-in random baseline turned out to be biased, and the simple farthest-pose rule is a strong competitor when there are very few views.
+
+`PyTorch` `3D Gaussian Splatting` `Active Perception` `BlenderProc` `PartNet-Mobility`
+
+---
+
 ## 📄 Publications
 
 **Bridging Human and Model Attention: Explainability Analysis of CNN, Mamba, and ViT Architectures with Gaze-Based Validation**  
@@ -13,6 +25,8 @@ M. Stefani, E. Parpaiola, M. Bino, G. Caregnato, **F. Roncolato**, D. Fusaro, L.
 *Preprint, under journal review* · [arXiv:2610.12703](https://arxiv.org/abs/2610.12703) · [Code](https://github.com/CaregnatoGianluca/VisionExplainability)  
 Compares how CNNs, Vision Transformers and Vision Mamba models explain their decisions by measuring how well their saliency maps match human eye-tracking data. Tested on fine-grained bird classification (CUB-200-2011) and chest X-rays (MIMIC-CXR), using GradCAM, ScoreCAM, AblationCAM, ViT-LRP and MambaLRP.  
 `PyTorch` `XAI` `Vision Mamba` `ViT` `Eye-Tracking`
+
+<img src="assets/xai_teaser.png" width="700" alt="Human gaze maps next to GradCAM, ScoreCAM, AblationCAM, ViT-LRP and MambaLRP saliency maps on three CUB-200 birds">
 
 ---
 
@@ -47,13 +61,13 @@ Accessible city guide for Padua, built to Android's inclusive-design guidelines.
 ---
 
 ## 🌱 Currently Working On
-- **Active Mapping**
+- **Active view selection for articulated objects** (thesis)
 - **Explainable AI**
 
 ---
 
 ## 🛠️ Tech
 **Languages:** C++, Python, Java, MATLAB, Kotlin, C, Go  
-**CV & ML:** PyTorch, TensorFlow, OpenCV, Vision Transformers  
-**Robotics:** ROS2, robot simulation  
+**CV & ML:** PyTorch, TensorFlow, OpenCV, Vision Transformers, 3D Gaussian Splatting  
+**Robotics:** ROS2, robot simulation, BlenderProc  
 **Tools:** Git, CMake, Linux, Conda
