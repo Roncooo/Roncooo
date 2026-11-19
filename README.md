@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Francesco
 
 Computer Engineering student at the University of Padova, working on **Computer Vision and AI for robotics**: building systems that perceive and act in the real world.  
-📫 [LinkedIn](https://www.linkedin.com/in/francesco-roncolato)  
+📫 [LinkedIn](https://www.linkedin.com/in/francesco-roncolato) · 📄 CV: [🇬🇧 English](https://github.com/roncooo/roncooo/blob/main/cv/FrancescoRoncolato_CV_en.pdf) · [🇮🇹 Italiano](https://github.com/roncooo/roncooo/blob/main/cv/FrancescoRoncolato_CV_it.pdf)  
 🔎 Open to internships in robotics perception and intelligent systems.
 
 ---
@@ -67,7 +67,21 @@ Accessible city guide for Padua, built to Android's inclusive-design guidelines.
 ---
 
 ## 🛠️ Tech
-**Languages:** C++, Python, Java, MATLAB, Kotlin, C, Go  
-**CV & ML:** PyTorch, TensorFlow, OpenCV, Vision Transformers, 3D Gaussian Splatting  
-**Robotics:** ROS2, robot simulation, BlenderProc  
-**Tools:** Git, CMake, Linux, Conda
+<table>
+  <tr>
+    <td><b>Languages</b></td>
+    <td><img src="https://skillicons.dev/icons?i=cpp,py,java,matlab,kotlin,c,go" height="40" alt="C++, Python, Java, MATLAB, Kotlin, C, Go"></td>
+  </tr>
+  <tr>
+    <td><b>CV & ML</b></td>
+    <td><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv" height="40" alt="PyTorch, TensorFlow, OpenCV"><br>Vision Transformers · 3D Gaussian Splatting</td>
+  </tr>
+  <tr>
+    <td><b>Robotics</b></td>
+    <td><img src="https://skillicons.dev/icons?i=ros,blender" height="40" alt="ROS2, Blender"><br>Robot simulation · BlenderProc</td>
+  </tr>
+  <tr>
+    <td><b>Tools</b></td>
+    <td><img src="https://skillicons.dev/icons?i=git,cmake,linux,anaconda,latex" height="40" alt="Git, CMake, Linux, Conda, LaTeX"></td>
+  </tr>
+</table>
